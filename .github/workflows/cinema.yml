@@ -1,0 +1,326 @@
+name: cinema
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+    midst:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: midst
+          run: |
+            npm install
+            timeout 350m node cinema.js
+  
+    formamide:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: formamide
+          run: |
+            npm install
+            timeout 303m node cinema.js
+  
+    venture_apologise_kookily:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: venture_apologise_kookily
+          run: |
+            npm install
+            timeout 312m node cinema.js
+  
+    unrealistic_since_husband:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: unrealistic_since_husband
+          run: |
+            npm install
+            timeout 346m node cinema.js
+  
+    greatly_monumental:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: greatly_monumental
+          run: |
+            npm install
+            timeout 336m node cinema.js
+  
+    toward_positively:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: toward_positively
+          run: |
+            npm install
+            timeout 314m node cinema.js
+  
+    tromp_furthermore_riser:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: tromp_furthermore_riser
+          run: |
+            npm install
+            timeout 322m node cinema.js
+  
+    transplant:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: transplant
+          run: |
+            npm install
+            timeout 301m node cinema.js
+  
+    summary:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: summary
+          run: |
+            npm install
+            timeout 328m node cinema.js
+  
+    atop_down_huzzah:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: atop_down_huzzah
+          run: |
+            npm install
+            timeout 350m node cinema.js
+  
+    thorn:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: thorn
+          run: |
+            npm install
+            timeout 343m node cinema.js
+  
+    funny_dally:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: funny_dally
+          run: |
+            npm install
+            timeout 334m node cinema.js
+  
+    finally:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: finally
+          run: |
+            npm install
+            timeout 333m node cinema.js
+  
+    gosh_bah_afterwards:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: gosh_bah_afterwards
+          run: |
+            npm install
+            timeout 350m node cinema.js
+  
+    hairy_aw:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: hairy_aw
+          run: |
+            npm install
+            timeout 341m node cinema.js
+  
+    redevelop:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: redevelop
+          run: |
+            npm install
+            timeout 341m node cinema.js
+  
+    since:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: since
+          run: |
+            npm install
+            timeout 324m node cinema.js
+  
+    against_yellow_oh:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: against_yellow_oh
+          run: |
+            npm install
+            timeout 328m node cinema.js
+  
+    beneficial_throughout:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: beneficial_throughout
+          run: |
+            npm install
+            timeout 350m node cinema.js
+  
+    snowplow:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: snowplow
+          run: |
+            npm install
+            timeout 341m node cinema.js
+  
